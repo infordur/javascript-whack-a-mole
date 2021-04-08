@@ -3,18 +3,26 @@
     flex-flow: wrap;
     justify-content: center;
     align-content: center;
-    width: 618px;
-    height: 618px;
+    width: 350px;
+    height: 350px;
 
 }
 
 .square {
-    width: 33%;
-    height: 200px;
+    width: 30%;
+    height: 30%;
     border: 1px solid black;
 }
 
 .mole {
     background-image: url('../img/mole.png');
     background-size: cover;
+}
+
+
+@media (min-width: 992px) {
+    .grid {
+        width: 618px;
+        height: 618px;
+    }
 }
